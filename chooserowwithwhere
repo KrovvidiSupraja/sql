@@ -1,0 +1,18 @@
+create table student(
+ sno numeric not null,
+ sname varchar2(20),
+ deptno numeric,
+ branch varchar2(20),
+ gender char
+);
+insert into student values(34,'onam',23,'cse','f');
+insert into student values(4,'makara',93,'eee','m');
+insert into student values(10,'holi',23,'cse','n');
+insert into student values(50,'ona',10,'ece','f');
+insert into student values(44,'nam',33,'ite','f');
+insert into student values(1500,'konam',43,'cse','f');
+insert into student values(145,'anna',10,'csm','n');
+insert into student values(185,'grey',11,'cse','f');
+insert into student values(1,'muhar',1,'cse','m');
+insert into student values(153,'onam',29,'cse','f');
+select * from student where sno=1;
