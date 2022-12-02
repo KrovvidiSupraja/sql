@@ -1,0 +1,14 @@
+-->A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation!
+create table student(
+ sno numeric not null,
+ sname varchar2(20),
+ deptno numeric,
+ branch varchar2(20),
+ gender char
+);
+insert into student values(34,'onam',23,'cse','f');
+insert into student values(4,'makara',93,'eee','m');
+insert into student values(10,'holi',23,'cse','n');
+insert into student values(50,'najar',10,'ece','f');
+insert into student values(2,'',23,'mech','f');
+select sno,deptno from student where sname is null;
