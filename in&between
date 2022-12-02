@@ -1,0 +1,24 @@
+Create Table employ(
+ eno numeric primary key,
+ ename varchar2(20),
+ sal float,
+ deptno numeric,
+ location varchar2(20),
+ comm numeric
+);
+insert into employ  values(15,'supraja',8000,23,'hyd',null);
+insert into employ  values(14,'rishitha',8000,21,'bang',0);
+insert into employ values(5,'john',70000,12,'mum',40);
+insert into employ  values(6,'raja',3800,2,'hyd',3000);
+insert into employ  values(55,'irish',40000,3,'ladak',10);
+insert into employ values(1532,'regina',8900,20,'us',30);
+insert into employ values(1125,'jogendra',8050,23,'hyd',60);
+insert into employ values(1345,'radha',830,10,'us',4500);
+
+
+
+-->between :in sql is used to select the columns which are in between given values
+select ename from employ where sal between 0 and 9000;
+
+-->IN:it is like substitute of or
+select ename from employ where sal in(8000,3800,830);
