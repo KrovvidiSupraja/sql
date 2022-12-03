@@ -1,0 +1,9 @@
+CURRVAL and NEXTVAL
+LEVEL
+ROWID
+ROWNUM
+
+
+SELECT * FROM employ WHERE ROWNUM <= 3; 
+
+SELECT ROWID, ename FROM employ WHERE deptno = 2;
