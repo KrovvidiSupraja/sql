@@ -1,0 +1,10 @@
+CREATE TABLE supraja.Intervals (
+ id INT NOT NULL,
+ lower INT NOT NULL,
+ upper INT NOT NULL,
+ CONSTRAINT CHK_Intervals_upper_gteq_lower CHECK(upper >= lower)
+);
+
+INSERT INTO supraja.Intervals WITH(TABLOCK) (id, lower, upper);
+
+SELECT id, lower, upper FROM supraja.Stage;
