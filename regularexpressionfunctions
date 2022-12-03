@@ -1,0 +1,5 @@
+SELECT * FROM employ
+WHERE ename like 's%';
+
+SELECT * FROM employ
+WHERE ename like '%a' [S]%'
