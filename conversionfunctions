@@ -1,0 +1,7 @@
+SELECT CONVERT(int, 11.91);
+
+SELECT CONVERT(varchar, 11.11);
+
+SELECT CONVERT(datetime, '1903-06-02');
+
+SELECT CONVERT(varchar, '1969-06-02', 101);
