@@ -1,0 +1,1 @@
+SELECT eno, ename FROM student emp WHERE salary > ( SELECT AVG(salary) FROM employ WHERE deptno = emp.deptno);
