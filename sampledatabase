@@ -1,0 +1,22 @@
+-->creating table
+Create Table employ(
+ eno numeric primary key,
+ ename varchar2(20),
+ sal float,
+ deptno numeric,
+ location varchar2(20),
+ comm numeric
+);
+-->inserting values
+insert into employ  values(15,'supraja',80000,23,'hyd',null);
+insert into employ  values(14,'rishitha',8000,21,'bang',0);
+insert into employ values(5,'john',70000,12,'mum',40);
+insert into employ  values(6,'raja',38000,2,'hyd',3000);
+insert into employ  values(55,'irish',40000,3,'ladak',10);
+insert into employ values(1532,'regina',8900,20,'us',30);
+insert into employ values(1125,'jogendra',8050,23,'hyd',60);
+insert into employ values(1345,'radha',830,10,'us',4500);
+insert into employ values(1565,'biryani',38400,23,'hyd',null);
+insert into employ values(145,'noodles',15000,13,'pun',0);
+insert into employ values(185,'egg',33000,23,'hyd',30);
+insert into employ values(153,'manchurya',3000,10,'up',20);
