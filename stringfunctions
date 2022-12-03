@@ -1,0 +1,9 @@
+SELECT sno,sname, CONCAT('19K61A05',sno) regid FROM student order by rollno;
+
+SELECT CHARACTER_LENGTH('LANGUAGE SQL LEARNING');
+
+SELECT ascii('t');
+
+LENGTH('ALPHABETS');
+
+SELECT SUBSTRING('Supraja', 2, 1);
