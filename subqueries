@@ -1,0 +1,2 @@
+SELECT * FROM employ WHERE deptno IN (   
+SELECT sno FROM student  WHERE branch = 'ece' OR branch= 'eee' ) ;  
